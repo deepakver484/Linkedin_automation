@@ -61,3 +61,6 @@ def login(username, password, cookies_file):
     driver.quit()
     # Print a success message
     logging.info(f'{username} successfully logged in')
+
+    return 'completed'
+
